@@ -1,0 +1,11 @@
+package TM05_Proj1;
+
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
+
+@RunWith(Suite.class)
+@SuiteClasses({ VideoLauncherTest.class, VideoTest.class })
+public class AllTests {
+
+}
